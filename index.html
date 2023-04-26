@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <!-- _________________________________________________________________________________________________________________________________ -->
+    <form action="#">              <!-- id va list birga bog'lanadi -->
+        <input list="samandar">             <!-- list  bu ochiq varoq -->
+        <datalist id="samandar">                  <!-- 1ta katak ichidagi bir nechta so'zlar (kataklar) boshqa so'z yozsa ha, bo'ladi -->                     
+            <option value="pepsi">
+                <option value="coca-cola">              <!-- value   ism -->
+                    <option value="fanta">
+                        <option value="redbool">
+                            <option value="flash">
+        </datalist>
+        <input type="submit">
+    </form>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<hr><!-- ________________________________________________________________________________________________________________________________ -->
+    <form action="#" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        0
+        <input type="range" id="a" name="a" value="50">                         <!-- range  surgich-->
+        100+
+        <input type="number" id="b" name="b" value="50">                        <!-- number  faqat son yozish mumkin -->
+        =
+        <output name="x" for="a b"></output>
+        <br><br>
+        <input type="submit">
+    </form>
+<hr><!-- ________________________________________________________________________________________________________________________________ -->
+    <form action="#">
+        <label for="favcolor">Qanday rang:</label>
+        <input type="color" id="favcolor" name="favcolor">                       <!-- color  rang tanlash -->
+        <input type="submit">
+    </form>
+<hr><!-- ________________________________________________________________________________________________________________________________ -->
+    <form action="#">
+        <label for="birthday">Tug'ilgan sana:</label>
+        <input type="date" id="birthday" name="birthday">                        <!-- date  sana -->
+        <input type="submit">
+    </form>
+<hr><!-- ________________________________________________________________________________________________________________________________ -->
+    <form action="#">
+        <label for="birthdaytime">Tug'ilgan sana:</label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime">               <!-- datetime-local  kalendar bilan -->
+        <input type="submit">
+    </form>
+<br><br><br><br><br><br><br><br>
+<hr><!-- ________________________________________________________________________________________________________________________________ -->
+    <form action="#">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" name="lname"><br><br>
+        <input type="image" src="jch_4.jpg" width="72px" height="48px">
+    </form>
+<hr><!-- ________________________________________________________________________________________________________________________________ -->
+    <form action="#">
+        <label for="myfile">Qo'yish:</label>
+        <input type="file" id="myfile" name="myfile"><br><br>                           <!-- file  fayl ko'rinishida jo'natish -->
+        <input type="submit">
+    </form>
+<hr><!-- ________________________________________________________________________________________________________________________________ -->
+</body>
+</html>
